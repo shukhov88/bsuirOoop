@@ -1,7 +1,9 @@
 package KR_1;
 
+
 import java.io.File;
 import java.io.FileOutputStream;
+
 import java.time.LocalDate;
 import java.util.Random;
 
@@ -13,7 +15,8 @@ public class DatesGenerator {
     public static void initDates() {
 
         try {
-            File file = new File("C:/Users/shukhovvg/bsuirOoop/src/main/resources/text1.txt");
+            File file = new File("src/main/resources/text1.txt");
+
             FileOutputStream outputStream = new FileOutputStream(file);
             for (int i = 0; i < 10; i++) {
                 outputStream.write(getRandomDate());
