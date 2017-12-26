@@ -5,9 +5,9 @@ package IPR_1;
  */
 public class Stock {
 
-    String name;
-    double price;
-    int stock;
+    private String name;
+    private double price;
+    private int stock;
 
     public Stock(String name, double price, int stock) {
         this.name = name;
@@ -20,7 +20,7 @@ public class Stock {
         this.price = price;
     }
 
-    private Stock() {};
+    private Stock() {}
 
     public void printProductName() {
         System.out.println("Product name: " + name);
