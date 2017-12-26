@@ -8,7 +8,7 @@ public class WriterInfo {
     public static void main(String args[]) {
 
         Stock screwDriver = new Stock("screwDriver", 50.5, 10);
-        screwDriver.printProducrName();
+        screwDriver.printProductName();
         screwDriver.printProducrPrice();
         screwDriver.printProducrSrock();
     }

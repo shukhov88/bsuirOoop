@@ -22,7 +22,7 @@ public class Stock {
 
     private Stock() {};
 
-    public void printProducrName() {
+    public void printProductName() {
         System.out.println("Product name: " + name);
     }
 
