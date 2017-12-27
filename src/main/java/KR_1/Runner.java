@@ -9,7 +9,8 @@ public class Runner {
 
     public static void main(String args[]) {
 
-        DatesGenerator.initDates();
+        DateConverter dc = new DateConverter();
+        dc.convertDates();
 
     }
 }
