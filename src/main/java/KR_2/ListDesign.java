@@ -1,7 +1,6 @@
 package KR_2;
 
 
-
 import java.awt.*;
 import java.awt.event.*;
 
@@ -38,7 +37,6 @@ public class ListDesign extends Frame implements ItemListener, ActionListener, W
     @Override
     public void itemStateChanged(ItemEvent e) {
         ta.append(list.getSelectedItem());
-
         if (ta.getText().length() > 100) {
             button.enable();
         }
@@ -55,9 +53,7 @@ public class ListDesign extends Frame implements ItemListener, ActionListener, W
     }
 
     @Override
-    public void windowOpened(WindowEvent e) {
-
-    }
+    public void windowOpened(WindowEvent e) {}
 
     @Override
     public void windowClosing(WindowEvent e) {
@@ -65,27 +61,17 @@ public class ListDesign extends Frame implements ItemListener, ActionListener, W
     }
 
     @Override
-    public void windowClosed(WindowEvent e) {
-
-    }
+    public void windowClosed(WindowEvent e) {}
 
     @Override
-    public void windowIconified(WindowEvent e) {
-
-    }
+    public void windowIconified(WindowEvent e) {}
 
     @Override
-    public void windowDeiconified(WindowEvent e) {
-
-    }
+    public void windowDeiconified(WindowEvent e) {}
 
     @Override
-    public void windowActivated(WindowEvent e) {
-
-    }
+    public void windowActivated(WindowEvent e) {}
 
     @Override
-    public void windowDeactivated(WindowEvent e) {
-
-    }
+    public void windowDeactivated(WindowEvent e) {}
 }
